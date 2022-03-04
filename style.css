@@ -4,14 +4,25 @@ body {
   text-align: center;
   overflow-x: hidden;
 }
-header .nav-item .nav-link {
+
+header {
   width: 100%;
   height: 65px;
-  color: #333;
+  background-color: #333;
   padding: 15px;
-  display: inline;
+  position: fixed;
+}
 
+header li {
+  display: inline;
+  color: white;
   padding-left: 45px;
+}
+
+header section nav ul a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
 }
 
 .fa-user-circle {
@@ -25,6 +36,8 @@ main section {
 
 video {
   width: 100%;
+  position: cover;
+  background-repeat: no-repeat;
 }
 
 main section .icons a {
@@ -55,7 +68,7 @@ main section .icons a {
 }
 .icons {
   position: absolute;
-  font-size: 40px;
+  font-size: 50px;
   top: 100%;
   bottom: 0;
   left: 45%;
@@ -68,28 +81,52 @@ main section .icons a {
 
 main section .h1 {
   display: flex;
-  margin-top: 150px;
+  justify-content: center;
+  margin-top: -10px;
   position: relative;
-  left: 46%;
 }
 
-main section .services {
+main section .wrap {
   display: flex;
   justify-content: space-evenly;
   position: absolute;
-  left: 26%;
-  right: 22%;
   margin-top: 50px;
+  margin-left: 35px;
 }
 
-hr {
-  width: 2cm;
-  border: 5px solid black;
-  position: absolute;
-  left: 48%;
-}
-
-main section .services li {
+main section .wrap li {
   list-style-type: none;
   font-size: 100px;
+}
+
+main section #Services {
+  height: 450px;
+  background-image: url(https://th.bing.com/th/id/R.030fa6ca4a31ab5dcb1e188892e7f56e?rik=%2fQ5MrK4trxBuVQ&riu=http%3a%2f%2ffeelthehome.com%2fwp-content%2fuploads%2f2012%2f03%2fmodern-black-wood-flooring.jpg&ehk=YV5gIExA7ZTTkS40ceexUBiXFmU%2foDUA6NxE7UwBT4Y%3d&risl=&pid=ImgRaw&r=0);
+  color: white;
+  z-index: 2;
+}
+
+main section .overlay h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+main section .second h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+main #Services h1 {
+  font-weight: 200;
+  font-size: 50px;
+}
+
+main #Services h2 {
+  font-weight: 300;
+  font-size: 35px;
+}
+
+main #Services p {
+  font-weight: 200;
+  font-size: 20px;
 }
