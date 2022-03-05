@@ -29,6 +29,13 @@ header section nav ul a {
   color: white;
   font-size: 25px;
 }
+
+.banner {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 main section {
   width: 100%;
   height: 300px;
@@ -38,13 +45,15 @@ video {
   width: 100%;
   position: cover;
   background-repeat: no-repeat;
+  z-index: -2;
+  background-attachment: fixed;
 }
 
 main section .icons a {
   color: white;
 }
 
-.overlay {
+.overlaytext {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -100,8 +109,8 @@ main section .wrap li {
 }
 
 main section #Services {
-  height: 450px;
-  background-image: url(https://th.bing.com/th/id/R.030fa6ca4a31ab5dcb1e188892e7f56e?rik=%2fQ5MrK4trxBuVQ&riu=http%3a%2f%2ffeelthehome.com%2fwp-content%2fuploads%2f2012%2f03%2fmodern-black-wood-flooring.jpg&ehk=YV5gIExA7ZTTkS40ceexUBiXFmU%2foDUA6NxE7UwBT4Y%3d&risl=&pid=ImgRaw&r=0);
+  height: 550px;
+  background-image: url(https://static.wixstatic.com/media/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg/v1/fill/w_1903,h_650,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg);
   color: white;
   z-index: 2;
 }
@@ -129,4 +138,31 @@ main #Services h2 {
 main #Services p {
   font-weight: 200;
   font-size: 20px;
+}
+
+main .ourwork .bottom img {
+  width: 400px;
+  height: 100%;
+}
+
+main .ourwork .section1 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+main .ourwork .section2 img {
+  width: 400px;
+  height: 300px;
+}
+
+main .ourwork h1 {
+  font-weight: 300;
+  margin-top: 100px;
+}
+
+main .ourwork p {
+  font-size: 25px;
+  font-weight: 200;
+  margin-top: 30px;
 }
