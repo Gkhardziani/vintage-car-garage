@@ -55,9 +55,9 @@ main section .icons a {
 
 .overlaytext {
   position: absolute;
+  left: 0;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
   color: white;
   display: flex;
@@ -140,29 +140,129 @@ main #Services p {
   font-size: 20px;
 }
 
-main .ourwork .bottom img {
+main #Ourwork .bottom img {
   width: 400px;
   height: 100%;
 }
 
-main .ourwork .section1 img {
+main #Ourwork .section1 img {
   width: 400px;
   height: 300px;
   margin-top: 30px;
 }
 
-main .ourwork .section2 img {
+main #Ourwork .section2 img {
   width: 400px;
   height: 300px;
 }
 
-main .ourwork h1 {
+main #Ourwork h1 {
   font-weight: 300;
   margin-top: 100px;
 }
 
-main .ourwork p {
+main #Ourwork p {
   font-size: 25px;
   font-weight: 200;
   margin-top: 30px;
+}
+
+main #AboutUs {
+  width: 700px;
+  display: grid;
+}
+
+main #AboutUs {
+  background-image: url(https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1867,h_1080,al_c,q_90,enc_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg);
+  height: 90vh;
+  width: 100%;
+  margin-top: 100px;
+}
+
+main #AboutUs .box {
+  background-color: whitesmoke;
+  margin-top: 100px;
+  max-width: 800px;
+  margin-left: 27%;
+  max-height: 700px;
+}
+
+main #AboutUs .box p {
+  font-size: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+main .background {
+  background-image: url(https://static.wixstatic.com/media/9b6c7d_54033d6d82c24d8e9be8212d3a8febe6.jpg/v1/fill/w_1903,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9b6c7d_54033d6d82c24d8e9be8212d3a8febe6.jpg);
+  background-attachment: fixed;
+  margin-top: 100px;
+  position: inherit;
+  height: 50vh;
+}
+
+main .forms {
+  margin-top: 0px;
+  background-image: url(https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1867,h_1080,al_c,q_90,enc_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg);
+  height: 100vh;
+}
+
+main .forms .car {
+  margin-top: 100px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+.forms .input {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 100px;
+  width: 500px;
+  height: 50vh;
+  margin-left: 35%;
+}
+
+.forms .input form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: flex-start;
+}
+
+main #Contact {
+  background-color: #333;
+  height: 200px;
+}
+
+main #Contact ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  list-style-type: none;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+main #Contact p {
+  color: white;
+  font-size: 15px;
+}
+
+main #Contact ul li a {
+  color: white;
 }
