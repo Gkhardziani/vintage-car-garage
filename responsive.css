@@ -1,1 +1,69 @@
+@media screen and (max-width: 320px) {
+  .second {
+    padding-left: 220%;
+  }
+  .overlaytext {
+    padding-left: 220%;
+  }
+  .icons {
+    padding-left: 180%;
+  }
+  #Services {
+    width: 1500px;
+  }
+  #Services .wrap {
+    position: relative;
+  }
+  #Ourwork {
+    position: relative;
+    left: 180%;
+  }
 
+  #AboutUs {
+    width: 100%;
+  }
+  #AboutUs .box {
+    position: relative;
+    right: 30%;
+    width: 500px;
+  }
+  .forms {
+    position: relative;
+
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #Services {
+    width: 2000px;
+  }
+  #Services .wrap {
+    position: relative;
+  }
+  .second {
+    padding-left: 220%;
+  }
+  .overlaytext {
+    padding-left: 220%;
+  }
+  .icons {
+    padding-left: 180%;
+  }
+  #Ourwork {
+    position: relative;
+    left: 180%;
+  }
+  #AboutUs {
+    width: 100%;
+  }
+  #AboutUs .box {
+    position: relative;
+    right: 30%;
+    width: 500px;
+  }
+  .forms {
+    position: relative;
+    width: 800px;
+  }
+}
