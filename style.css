@@ -11,6 +11,7 @@ header {
   background-color: #333;
   padding: 15px;
   position: fixed;
+  z-index: 100;
 }
 
 header li {
@@ -28,14 +29,6 @@ header section nav ul a {
 .fa-user-circle {
   color: white;
   font-size: 25px;
-}
-.fa-screwdriver-wrench {
-  color: burlywood;
-  font-size: 40px;
-  position: relative;
-  display: grid;
-  right: 420%;
-  margin-top: 70px;
 }
 
 .fa-creative-commons-nd {
@@ -305,4 +298,14 @@ section aside {
 .button:hover {
   background-color: grey;
   color: white;
+}
+
+header nav .checkBtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
